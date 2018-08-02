@@ -4,14 +4,14 @@ pipeline {
         stage('Example Build') {
              
             steps {
-                echo 'Hello, friends build karlo'
+                echo 'Hello, friends build'
            
             }
         }
         stage('Example Test') {
            
             steps {
-                echo 'hello, friends test karlo'
+                echo 'hello, friends test'
                
             }
         }
